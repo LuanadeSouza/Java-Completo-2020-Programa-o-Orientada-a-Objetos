@@ -1,0 +1,17 @@
+package entrada_de_dados;
+
+import java.util.Scanner;
+
+public class Mian {
+	
+	public static void main(String [] args) {
+		Scanner sc = new Scanner(System.in); 
+		String a = sc.next();
+		System.out.println("Você digitou: " + a);
+		int x = sc.nextInt();
+		
+		
+		sc.close();
+	}
+
+}

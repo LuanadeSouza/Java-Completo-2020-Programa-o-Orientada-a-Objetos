@@ -1,0 +1,22 @@
+package entrada_de_dados;
+
+import java.util.Scanner;
+
+public class Mian {
+	
+	public static void main(String [] args) {
+		Scanner sc = new Scanner(System.in); 
+		String a = sc.next();
+		int b = sc.nextInt();
+		double c = sc.nextDouble();
+		char x = sc.next().charAt(0);
+		System.out.println("Dados: ");
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		
+		
+		sc.close();
+	}
+
+}
